@@ -1,1 +1,1 @@
-python manage.py runserver --settings-CS.settings.development
+python manage.py runserver --settings-CS.settings.development   
