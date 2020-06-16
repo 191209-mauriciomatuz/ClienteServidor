@@ -30,3 +30,10 @@ ALLOWED_HOSTS = []
 #primeraactividad.herokuapp.com
 
 # Application definition
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
