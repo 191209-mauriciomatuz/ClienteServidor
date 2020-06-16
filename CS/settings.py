@@ -93,7 +93,6 @@ WSGI_APPLICATION = 'CS.wsgi.application'
    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     #}
 #}
-#solo modifico esto para probar git
 
 DATABASES = {
     'default': {
@@ -149,7 +148,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 try:
     from CS.local_settings import *
