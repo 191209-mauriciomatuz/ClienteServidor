@@ -93,6 +93,7 @@ WSGI_APPLICATION = 'CS.wsgi.application'
    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     #}
 #}
+#solo modifico esto para probar git
 
 DATABASES = {
     'default': {
