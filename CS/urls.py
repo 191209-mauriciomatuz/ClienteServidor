@@ -13,13 +13,18 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
+#from  Login.views import Login  
 from django.contrib import admin
 from django.urls import path,re_path
 from django.conf.urls import include
-from rest_framework import routers,serializers,viewsets
 from django.contrib.auth.models import User
+
+
+from rest_framework import routers,serializers,viewsets
 from django.conf.urls import url
 from rest_framework_swagger.views import get_swagger_view
+
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
@@ -37,5 +42,6 @@ schema_view = get_swagger_view(title='Pastebin API')
 urlpatterns = [
     path('admin/', admin.site.urls),
     url('api/', schema_view),
+    re_path(r'^appi/v1/login',include('Login.urls')), 
     re_path(r'^',include(router.urls)),
-]
+] 
