@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['primeraactividad.herokuapp.com']
 #primeraactividad.herokuapp.com
 
 # Application definition
-
+#para poder subir
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
