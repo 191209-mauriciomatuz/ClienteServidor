@@ -25,7 +25,7 @@ SECRET_KEY = 'xv_ys11+_e(!w2%1tnmy0#jwch&x(r8lo=^!p1jjz@26imb+1b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['primeraactividad.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 #primeraactividad.herokuapp.com
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework_swagger',
     'Login',
     'Example1',
+    'Example2',
 ]
 SITE_ID=1
 
