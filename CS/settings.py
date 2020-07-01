@@ -26,7 +26,7 @@ SECRET_KEY = 'xv_ys11+_e(!w2%1tnmy0#jwch&x(r8lo=^!p1jjz@26imb+1b'
 DEBUG = False
 
 ALLOWED_HOSTS = ['primeraactividad.herokuapp.com']
-#primeraactividad.herokuapp.com sube
+#primeraactividad.herokuapp.com sube por favor
 
 # Application definition
 #para poder subir
