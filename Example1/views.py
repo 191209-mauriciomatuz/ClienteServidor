@@ -24,7 +24,7 @@ class ExampleList(APIView):
         print("ENTRO A POST OSI OSI")
         serializer = ExampleSerializer(data = request.data)
         print("PASO EL SERIALIZER")
-        if serializer.is_valid:
+        if serializer.is_valid():
             serializer.save()
             datas = serializer.data
             return Response(datas)
