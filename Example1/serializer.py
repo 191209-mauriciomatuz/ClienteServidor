@@ -1,8 +1,7 @@
-from rest_framework import routers, serializers, viewsets
+from rest_framework import routers,serializers,viewsets
+from Example1.models import Example1
 
-from Example1.models import Example
-
-class ExampleSerializer(serializers.ModelSerializer):
+class ExampleSerializers(serializers.ModelSerializer):
     class Meta:
-        model = Example
-        fileds = ('__all__')
+        model = Example1
+        fields = ('__all__')

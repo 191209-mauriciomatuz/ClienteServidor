@@ -7,5 +7,5 @@ from  Example1 import views
 
 
 urlpatterns = [
-    re_path(r'^/$', views.ExampleList.as_view()), 
+    re_path(r'$',views.ExampleLista.as_view()),
 ]
