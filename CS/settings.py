@@ -24,7 +24,7 @@ SECRET_KEY = 'SECRET_KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-
+#agrego comentario para cambiar commit
 ALLOWED_HOSTS = ['primeraactividad.herokuapp.com']
 #primeraactividad.herokuapp.com sube por favor a
 
