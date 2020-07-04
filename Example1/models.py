@@ -9,7 +9,7 @@ class Example1(models.Model):
 
 
     def __str__(self):
-        return self.name,self.edad,self.direccion,self.curp
+        return self.name,self.edad
     
     class Meta:
         db_table = 'Example1'
