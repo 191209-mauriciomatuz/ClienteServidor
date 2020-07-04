@@ -26,9 +26,6 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 EMAIL_HOST = config('EMAIL_HOST', default='localhost')
 EMAIL_PORT = config('EMAIL_PORT', default=25, cast=int)
-# SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = False
-#agrego comentario para cambiar commit
 ALLOWED_HOSTS = ['primeraactividad.herokuapp.com']
 #primeraactividad.herokuapp.com sube por favor a
 #importamos para hacer decouple
